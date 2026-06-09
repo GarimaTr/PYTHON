@@ -1,0 +1,12 @@
+word="amazingly me"
+print(len(word))
+print(word.endswith("gly"))
+print(word.startswith("Am"))
+print(word.capitalize())
+print(word.find("me"))
+print("a,b,c".split())
+print("-".join(['a','b']))
+print(word.replace("me","myself"))
+print("Hero23".isalpha())
+print("Hero23".isalnum())
+print("23".isdigit())

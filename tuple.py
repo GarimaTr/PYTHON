@@ -1,0 +1,9 @@
+a=(1,45,67,False,45,"Rahul")
+print(type(a))
+print(a.count(45))
+print(a.index(False))
+print(a*2)
+print(len(a))
+b=(1,2,3)
+a,b,c=b
+print(a,b,c)

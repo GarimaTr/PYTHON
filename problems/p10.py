@@ -1,10 +1,11 @@
 
+words=["donkey","is","cute"]
 with open("text.txt","r") as f:
     file=f.read()
-
-file2=file.replace("donkey","######")
+for word in words:
+    file=file.replace(word,"#" * len(word))
     
 with open("text.txt","w") as f:
-     f.write(file2)
+     f.write(file)
 
-print(file2)
+print(file)

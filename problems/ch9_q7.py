@@ -12,13 +12,7 @@ for line in lines:
 else:
     print("No python is not present") 
 
-print("###############")
-line=1
-with open("text.txt") as f:
-    lines=f.readlines()
 
-    if("python" in lines):
-        print((int)(lines))
 
 
 
